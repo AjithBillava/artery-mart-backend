@@ -15,7 +15,7 @@ const user = require("./routes/user.router");
 initializeDBConnection()
 
 app.get('/', (req, res) => {
-  res.json({success:true,message:"Sab sahi hai"})
+  res.json("Welcome, to artery-mart-backend...")
 })
 
 
